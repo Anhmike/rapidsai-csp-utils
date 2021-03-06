@@ -107,6 +107,16 @@ dependencies:
   - ncurses=6.1=hf484d3e_1002
   - numpy=1.18.5=py36h7314795_0
   - numba
+  - dask 
+  - distributed 
+  - xgboost
+  - pyarrow 
+  - llvmlite 
+  - PySocks
+  - requests 
+  - six 
+  - urllib3
+  - cffi
   - oauthlib=3.0.1=py_0
   - olefile=0.46=py_0
   - openjpeg=2.3.1=h981e76c_3
