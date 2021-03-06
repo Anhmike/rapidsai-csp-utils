@@ -41,7 +41,7 @@ install_RAPIDS () {
     if [ ! -f Miniconda3-4.5.4-Linux-x86_64.sh ]; then
         echo "Removing conflicting packages, will replace with RAPIDS compatible versions"
         # remove existing xgboost and dask installs
-        pip uninstall -y dask distributed xgboost pyarrow numba llvmlite PySocks requests six urllib3 cffi
+        #pip uninstall -y dask distributed xgboost pyarrow numba llvmlite PySocks requests six urllib3 cffi
 
         # intall miniconda
         echo "Installing conda"
